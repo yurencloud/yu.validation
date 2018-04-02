@@ -1,9 +1,28 @@
-# webpack
-浏览器端执行commonjs webpack打包模板
+## 使用方法
+~~~
+var validation = require('yu.validation');
+var result = validation.isInteger(1);
+~~~
 
-## 测试
-因为模块和测试都使用了commonjs进行模块化，所以在打开index.html之前都要先执行命令
+## 验证方法汇总
 ~~~
-webpack
+isInteger,
+isNumber,
+isArray,
+isFunction,
+isRegExp,
+isEmpty,
+isEmail,
+isUrl,
+isChinese,
+isChar,
+isCharNum,
+isIdNumber,
+isIp,
+getPasswordLevel,
+isPassword,
+isMobile,
+isTelephone,
+isDomain, 
+isUsername
 ~~~
-进行打包

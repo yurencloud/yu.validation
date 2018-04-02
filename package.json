@@ -19,6 +19,10 @@
     "email": "641212003@qq.com",
     "url": "http://www.yurencloud.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurencloud/yu.validation.git"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
